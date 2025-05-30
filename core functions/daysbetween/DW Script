@@ -1,1 +1,9 @@
+%dw 2.0
+import * from dw::core::Dates
+output application/json
+---
+payload map (item) -> {
+  user: item.user,
+  daysActive: daysBetween(item.start as Date, item.end as Date)
+}
 
