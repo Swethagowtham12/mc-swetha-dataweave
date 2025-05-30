@@ -1,5 +1,1 @@
-%dw 2.0
-output application/json
----
-payload map (num) -> ceil(num)
-
+[3, 5, 6]
