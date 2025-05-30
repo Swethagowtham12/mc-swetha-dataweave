@@ -1,1 +1,6 @@
+[
+  { "key": "name", "value": "Alice" },
+  { "key": "age", "value": 30 },
+  { "key": "city", "value": "New York" }
+]
 
