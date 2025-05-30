@@ -1,5 +1,2 @@
-%dw 2.0
-output application/json
----
-distinctBy(payload, (item) -> item)
+["apple", "banana", "orange"]
 
