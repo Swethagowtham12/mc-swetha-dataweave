@@ -1,1 +1,6 @@
+[
+  { "id": 1, "productName": "Laptop", "inStock": true },
+  { "id": 2, "productName": "Mouse", "inStock": true },
+  { "id": 3, "productName": "Keyboard", "inStock": true }
+]
 
