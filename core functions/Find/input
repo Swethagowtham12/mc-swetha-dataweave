@@ -1,1 +1,7 @@
+[
+  { "id": "O1001", "customer": "Alice", "amount": 5000 },
+  { "id": "O1002", "customer": "Bob", "amount": 7500 },
+  { "id": "O1003", "customer": "Charlie", "amount": 15000 },
+  { "id": "O1004", "customer": "David", "amount": 20000 }
+]
 
