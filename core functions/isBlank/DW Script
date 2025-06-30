@@ -1,1 +1,10 @@
+%dw 2.0
+output application/json
+---
+{
+  isName1Blank: isBlank(payload.name1),
+  isName2Blank: isBlank(payload.name2),
+  isName3Blank: isBlank(payload.name3),
+  isName4Blank: isBlank(payload.name4)
+}
 
