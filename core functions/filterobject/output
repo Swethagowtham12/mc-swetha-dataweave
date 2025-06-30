@@ -1,1 +1,5 @@
+{
+  "P001": { "name": "Laptop", "category": "electronics", "stock": 10 },
+  "P004": { "name": "Headphones", "category": "electronics", "stock": 3 }
+}
 
