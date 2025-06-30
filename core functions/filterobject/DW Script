@@ -1,1 +1,7 @@
+%dw 2.0
+output application/json
+---
+payload filterObject ((product, code) -> 
+  product.category == "electronics" and product.stock > 0
+)
 
