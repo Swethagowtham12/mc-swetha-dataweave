@@ -1,1 +1,17 @@
+[
+  {
+    "department": "Sales",
+    "employees": [
+      { "name": "Alice" },
+      { "name": "Bob" }
+    ]
+  },
+  {
+    "department": "Engineering",
+    "employees": [
+      { "name": "Charlie" },
+      { "name": "David" }
+    ]
+  }
+]
 
