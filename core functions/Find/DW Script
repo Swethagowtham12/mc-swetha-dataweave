@@ -1,1 +1,5 @@
+%dw 2.0
+output application/json
+---
+payload find (order) -> order.amount > 10000
 
