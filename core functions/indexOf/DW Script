@@ -1,1 +1,8 @@
+%dw 2.0
+output application/json
+---
+{
+  indexOf1010: payload indexOf 1010,
+  indexOf9999: payload indexOf 9999
+}
 
