@@ -1,1 +1,7 @@
+{
+  "P001": { "name": "Laptop", "category": "electronics", "stock": 10 },
+  "P002": { "name": "TV", "category": "electronics", "stock": 0 },
+  "P003": { "name": "Sofa", "category": "furniture", "stock": 5 },
+  "P004": { "name": "Headphones", "category": "electronics", "stock": 3 }
+}
 
