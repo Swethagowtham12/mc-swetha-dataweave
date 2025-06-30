@@ -1,1 +1,9 @@
+%dw 2.0
+output application/json
+---
+payload flatMap (dept) -> 
+  dept.employees map (emp) -> {
+    name: emp.name,
+    department: dept.department
+  }
 
