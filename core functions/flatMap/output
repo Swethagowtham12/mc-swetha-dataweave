@@ -1,1 +1,7 @@
+[
+  { "name": "Alice", "department": "Sales" },
+  { "name": "Bob", "department": "Sales" },
+  { "name": "Charlie", "department": "Engineering" },
+  { "name": "David", "department": "Engineering" }
+]
 
