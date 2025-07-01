@@ -1,1 +1,11 @@
+%dw 2.0
+input payload application/json
+output application/json
+---
+{
+  isNameEmpty: isEmpty(payload.name),
+  isTagsEmpty: isEmpty(payload.tags),
+  isAddressEmpty: isEmpty(payload.address),
+  isEmailEmpty: isEmpty(payload.email)
+}
 
