@@ -1,1 +1,8 @@
+%dw 2.0
+input payload application/json
+output application/json
+---
+{
+  onlyIntegers: payload filter (item) -> isInteger(item)
+}
 
